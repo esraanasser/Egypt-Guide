@@ -1,0 +1,146 @@
+/* global style */
+/* main heading text style */
+.main-text{
+    text-align: center;
+    padding: 10px 0 10px 0;
+   
+   h3{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 19px;
+   } 
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+h1 , h2 , h3, p{
+    text-transform: capitalize;
+}
+/*-------------------- hero section------------------------ */
+
+.hero{
+    background-image: url(../imgs/ancient-cultures-craft-religion-history-into-art-generated-by-ai.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.layout{
+    background-color: rgba(0, 0, 0, 0.498);
+    height: 100vh;
+    text-align: center;
+     display: flex;
+    align-content: center;
+    align-items: center;
+}
+.hero-text{
+    color: white;
+    background-color: rgba(165, 42, 42, 0.348);
+    padding: 15px 0 15px 0;
+
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+/* gallary ===========================================*/
+.img img{
+    max-width: 250px; 
+}
+/* services =====================================================*/
+.services{
+    text-align: center;
+}
+.services .icon{
+    font-size: 30px;
+}
+/*============================= Contact====================== */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.Contact .form input[type="text"],
+.Contact .form input[type="email"],
+.Contact .form textarea {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+.Contact .form textarea {
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+/* button hover */
+.DARK {
+    background-color: black;
+    color: white;
+    transition: all .5s;
+    border: 1px solid black;
+}
+
+.DARK:hover {
+    background-color: white;
+    color: black;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* about ===============================================================================================*/
+
+.about{
+    background-image: url(../imgs/pexels-ismaelabdalnabystudio-14726470.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+
+.about .about-text>p{
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(34, 34, 34);
+}
+
+/* story */
+#story .story-text {
+line-height: 2rem;
+font-family: 'Courier New', Courier, monospace;
+color: rgb(34, 34, 34);
+
+}
+
+/********************************* footer********************************************** */
+.footer{
+    text-align: center;
+    background-color: black;
+    height: 30vh;
+    color: rgb(190, 187, 187);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
