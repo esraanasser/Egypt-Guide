@@ -24,10 +24,23 @@ Egypt Guide is an informative website designed to assist tourists visiting Egypt
 ## How to Access 🌐
 Visit the Egypt Guide website to explore Egypt's rich culture and history through our user-friendly platform.
 
-## How to Use This Repository 🛠️
+
+## Installation Instructions
+The project is available on GitHub. To set it up locally, follow these steps:
+
+1. Clone the repository:
+  ```bash
+   git clone https://github.com/yourusername/Egypt-Guide.git
+   cd Egypt-Guide
+   ```
+2. Open the project:
+   Open index.html in your preferred web browser.
+
+   ## How to Use This Repository 🛠️
 1. Clone the Repository: If you'd like to explore the code or make contributions, clone this repository to your local machine using:
-   `bash
+   ```bash
    git clone <repository_url>
+   ```
 
 2. Open the Project: Navigate to the project directory and open the index.html file in your web browser to view the website.
 
